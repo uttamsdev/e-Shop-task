@@ -23,9 +23,9 @@ const Header = () => {
                 <p>Dhaka, 1212</p>
             </div>
             <div className="input">
-                <input type="text" />
+                <input type="text" placeholder="Search"/>
                 <div className="search-image">
-                    <p>Search</p>
+                   
                     <img src="search.png" alt="" />
                 </div>
             </div>
