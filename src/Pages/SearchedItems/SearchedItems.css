@@ -1,0 +1,21 @@
+.searched-items img{
+    height: 235px;
+    width: 235px;
+}
+.searched-items{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.searched-text p {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+  
+    color: #000000;
+    margin-top: 40px;
+    border-bottom: 2px dotted #ffae5d;
+    margin-bottom: 30px;
+  }
+  

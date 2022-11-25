@@ -1,5 +1,6 @@
 .hot-deals-product {
   display: flex;
+  justify-content: center;
   gap: 47px;
 }
 .hot-text p {
