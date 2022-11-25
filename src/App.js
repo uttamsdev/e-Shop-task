@@ -6,6 +6,7 @@ import Component from "./Pages/Component/Component";
 import HotDeal from "./Pages/HotDeal/HotDeal";
 import SearchedItems from "./Pages/SearchedItems/SearchedItems";
 import FurnitureDeal from "./Pages/furnitureDeal/FurnitureDeal";
+import Review from "./Pages/Review/Review";
 
 function App() {
   return <div>
@@ -15,6 +16,7 @@ function App() {
     <HotDeal></HotDeal>
     <SearchedItems></SearchedItems>
     <FurnitureDeal></FurnitureDeal>
+    <Review></Review>
   </div>;
 }
 

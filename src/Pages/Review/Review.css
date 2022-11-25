@@ -1,0 +1,52 @@
+.review-text p {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+
+  color: #000000;
+  margin-top: 40px;
+  border-bottom: 2px dotted #ffae5d;
+  margin-bottom: 30px;
+}
+.mobiles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.card {
+  width: 749px;
+  height: 385px;
+  border: 1.5px solid rgba(129, 129, 129, 0.5);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+.card-info p:nth-child(1) {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #000000;
+}
+.card-info p:nth-child(2) {
+  color: #000000;
+  font-size: 16px;
+}
+.card-info p:nth-child(3){
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.rating{
+    display: flex;
+    align-items: center;
+    color: #FFAE5D;
+    gap: 5px;
+    margin-top: 10px;
+}
+.icon{
+    font-size: 33px;
+}
