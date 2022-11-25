@@ -1,21 +1,47 @@
-.searched-items img{
-    height: 235px;
-    width: 235px;
+.searched-items img {
+  height: 235px;
+  width: 235px;
 }
-.searched-items{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+.searched-items {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 .searched-text p {
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 36px;
-    /* identical to box height */
-  
-    color: #000000;
-    margin-top: 40px;
-    border-bottom: 2px dotted #ffae5d;
-    margin-bottom: 30px;
-  }
-  
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+
+  color: #000000;
+  margin-top: 40px;
+  border-bottom: 2px dotted #ffae5d;
+  margin-bottom: 30px;
+}
+
+.bg img {
+  width: 90%;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.bg {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.bg-area {
+  position: relative;
+}
+.bg-area img:nth-child(2) {
+  position: absolute;
+  top: 22%;
+  left: 25%;
+}
+.bg-area .checked {
+  color: #606060;
+  font-weight: 500;
+  font-size: 24px;
+  position: absolute;
+  top: 43%;
+  left: 43%;
+}

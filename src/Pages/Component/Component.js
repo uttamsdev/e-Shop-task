@@ -4,8 +4,9 @@ import './Component.css'
 const Component = () => {
   return (
     <div className='container'>
-        <img className='c-img' src="component.png" alt="" />
-
+        <div className="img-container">
+          <img className='c-img' src="component.png" alt="" />
+        </div>
     </div>
   )
 }

@@ -12,7 +12,7 @@ const FurnitureDeal = () => {
   return (
     <div className='container'>
         <div className='hot-text'>
-            <p>Today’s hot deals</p>
+            <p>Deals on furniture</p>
         </div>
         <div className='hot-deals-product'>
             {
