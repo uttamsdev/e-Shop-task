@@ -1,0 +1,36 @@
+.banner {
+  display: flex;
+  gap: 94px;
+  margin-top: 60px;
+}
+.hot-deal {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+
+  color: #000000;
+  border-bottom: 2px dotted #ffae5d;
+}
+.banner-text {
+  width: 548px;
+  height: 400px;
+  margin-top: 180px;
+}
+.banner-text p {
+  font-weight: 300;
+  font-size: 90px;
+  line-height: 100px;
+  /* or 104% */
+
+  color: #000000;
+}
+.cool {
+  color: #ffae5d;
+  font-weight: 700;
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 54px;
+}
