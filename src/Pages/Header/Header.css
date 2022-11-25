@@ -1,0 +1,93 @@
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px 20px 0px;
+}
+.shopLogo {
+  font-weight: 700;
+  font-size: 32px;
+}
+.cartLogo {
+  font-size: 32px;
+}
+.sign-in {
+  display: flex;
+  align-items: center;
+}
+.sign-in > p {
+  font-size: 17px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.hr {
+  height: 1px;
+  width: 100%;
+  background-color: #808080;
+  /* margin-top: 20px; */
+}
+
+.search {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.map {
+  display: flex;
+  background: #ffae5d;
+  border-radius: 20px;
+  width: 151.2px;
+  height: 56px;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-weight: 600;
+  /* margin-top: 20px; */
+}
+.input > input {
+  width: 622px;
+  height: 56px;
+
+  border: 1px solid rgba(128, 128, 128, 0.5);
+  border-radius: 20px;
+  position: relative;
+  
+}
+.input > input:focus{
+    outline: none;
+}
+.search-image {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+  position: relative;
+}
+.search-image p {
+  position: absolute;
+  top: -40px;
+  left: 20px;
+  color: #808080;
+}
+
+.search-image img {
+  position: absolute;
+  right: 20px;
+  top: -40px;
+}
+.navs{
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+}
+.navs ul{
+    display: flex;
+    gap: 25px;
+}
+.navs ul li a{
+    font-weight: 500;
+    color: #606060;
+}
