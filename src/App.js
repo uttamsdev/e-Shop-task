@@ -7,6 +7,7 @@ import HotDeal from "./Pages/HotDeal/HotDeal";
 import SearchedItems from "./Pages/SearchedItems/SearchedItems";
 import FurnitureDeal from "./Pages/furnitureDeal/FurnitureDeal";
 import Review from "./Pages/Review/Review";
+import Footer from "./Pages/Footer/Footer";
 
 function App() {
   return <div>
@@ -17,6 +18,7 @@ function App() {
     <SearchedItems></SearchedItems>
     <FurnitureDeal></FurnitureDeal>
     <Review></Review>
+    <Footer></Footer>
   </div>;
 }
 
